@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "uk.ac.tees.mad.simpleapp-debug-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "uk.ac.tees.mad.simpleapp-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "uk.ac.tees.mad.simpleapp-debug-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "uk.ac.tees.mad.simpleapp-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

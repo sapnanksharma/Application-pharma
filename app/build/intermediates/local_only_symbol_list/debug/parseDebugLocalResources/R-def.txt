@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string back_button
+string continue_button
+string details_message
+string details_title
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string home_description
+string home_title
+string name_label
+string project_id
+string splash_tagline
+string usage_title
+string view_details_button
+string view_usage_button
+style Theme.SimpleApp

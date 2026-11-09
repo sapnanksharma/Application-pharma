@@ -1,0 +1,64 @@
+How to Run the Android App in Android Studio
+
+1. Open Android Studio
+   - Start Android Studio.
+   - Click Open.
+   - Select the project folder:
+     D:\Project\Mobile App\Application
+
+2. Wait for Gradle to sync
+   - Android Studio will detect the project and begin syncing Gradle.
+   - This may take a few minutes the first time.
+   - If prompted:
+     - Install Android SDK components
+     - Accept the license agreements
+     - Let Android Studio finish downloading required packages
+
+3. Check the SDK path
+   - If Android Studio says the Android SDK is not found:
+     - Go to: File > Settings > Appearance & Behavior > System Settings > Android SDK
+     - Choose the installed SDK location
+     - Install the default Android platform if required
+
+4. Create or start an emulator
+   Option A: Use an Android Emulator
+   - Open Device Manager in Android Studio.
+   - Click Create Device.
+   - Choose a phone model.
+   - Select a system image (for example Android 14 or the latest stable version).
+   - Finish setup and start the emulator.
+
+   Option B: Use a real Android device
+   - Enable Developer Options and USB Debugging on the phone.
+   - Connect the phone to the PC with a USB cable.
+   - Accept the prompt to allow debug mode.
+   - The device should appear in Android Studio.
+
+5. Run the app
+   - In the toolbar, make sure the correct emulator or device is selected.
+   - Click the green Run button.
+   - Or go to: Run > Run 'app'
+
+6. Choose the app module
+   - If prompted, select the app module.
+   - Android Studio will build the project and install it on the selected emulator or device.
+
+7. Expected result
+   - The app should open and display:
+     - Splash screen
+     - Continue button
+     - Home screen
+     - Name entry field
+     - Details screen with the name passed from the previous screen
+
+Troubleshooting
+- If Gradle fails:
+  - Check that Java is installed.
+  - Make sure the project is opened at the root folder:
+    D:\Project\Mobile App\Application
+  - Do not open only the app folder.
+  - If needed, go to: File > Sync Project with Gradle Files
+
+Notes
+- The project should be opened from the root folder, not from a nested subfolder.
+- The first run may take longer because Android Studio downloads the required tools and dependencies.

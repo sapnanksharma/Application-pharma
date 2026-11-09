@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pharma App</string>
+    <string name="splash_tagline">Your medicine guide</string>
+    <string name="continue_button">Continue</string>
+    <string name="home_title">Home</string>
+    <string name="home_description">Enter a medicine name to continue.</string>
+    <string name="name_label">Medicine name</string>
+    <string name="view_details_button">View details</string>
+    <string name="details_title">Medicine details</string>
+    <string name="details_message">Here are the details for your medicine.</string>
+    <string name="view_usage_button">When and how to use</string>
+    <string name="usage_title">Use instructions</string>
+    <string name="back_button">Back</string>
+</resources>
